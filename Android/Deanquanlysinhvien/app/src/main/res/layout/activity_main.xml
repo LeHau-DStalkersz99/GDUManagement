@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/gradient">
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="80dp"
+        android:orientation="horizontal">
+<TableRow>
+        <RelativeLayout
+            android:id="@+id/gridviewthongtin"
+            android:layout_width="220dp"
+            android:layout_height="180dp">
+
+            <TextView
+                android:id="@+id/function"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Thông tin"
+                android:textColor="#ffff"
+                android:textSize="25sp"
+                android:textStyle="normal|italic">
+
+            </TextView>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/user"
+                app:civ_border_color="#FFF2F2"
+                app:civ_border_width="2dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gridviewtkb"
+            android:layout_width="220dp"
+            android:layout_height="180dp"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/function1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Thời khóa biểu"
+                android:textSize="25dp"
+                android:textColor="#ffff"
+                android:textStyle="normal|italic">
+
+            </TextView>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/iconschedule"
+                app:civ_border_color="#FFF2F2"
+                app:civ_border_width="2dp" />
+        </RelativeLayout>
+</TableRow>
+        <TableRow>
+        <RelativeLayout
+            android:id="@+id/gridviewxemdiem"
+            android:layout_width="220dp"
+            android:layout_height="180dp"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/function2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Xem điểm"
+                android:textSize="25dp"
+                android:textColor="#ffff"
+                android:textStyle="normal|italic">
+
+            </TextView>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icondiem"
+                app:civ_border_color="#FFF2F2"
+                app:civ_border_width="2dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/gridviewtientrinh"
+            android:layout_width="220dp"
+            android:layout_height="180dp"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/function3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Tiến trình học tập"
+                android:textSize="25dp"
+                android:textColor="#ffff"
+                android:textStyle="normal|italic">
+
+            </TextView>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icontientrinh"
+                app:civ_border_color="#FFF2F2"
+                app:civ_border_width="2dp" />
+        </RelativeLayout>
+        </TableRow>
+        <RelativeLayout
+            android:id="@+id/gridviewlogout"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="90dp"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/function4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Logout"
+                android:textSize="23dp"
+                android:textColor="#ffff"
+                android:textStyle="normal|italic">
+
+            </TextView>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/iconlogout"
+                app:civ_border_color="#FFF2F2"
+                app:civ_border_width="2dp" />
+        </RelativeLayout>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/logo1"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="454dp"
+        android:layout_height="68dp"
+        android:text="Trụ sở: 185 -187 Hoàng Văn Thụ, Phường 8, Quận Phú Nhuận, Tp HCM"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textColor="#ffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center_horizontal" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
